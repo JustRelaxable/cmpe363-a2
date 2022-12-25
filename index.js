@@ -79,8 +79,6 @@ async function deleteByPhone(phone) {
   }
 }
 
-const port = process.env.PORT || 4000;
-
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server running on port 443");
 });
